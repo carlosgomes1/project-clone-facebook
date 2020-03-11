@@ -1,0 +1,44 @@
+/*              LAYOUT               */
+html, body, #principal {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #e9ebee;
+}
+
+/*              NAV                 */
+
+nav.navbar-facebook {
+    background-color: #3b5998;
+    color: white;
+    margin: 0;
+    padding: 0;
+    max-height: 82px;
+    font-size: 12px;
+}
+
+.login {
+    height: 23px;
+    width: 150px;
+}
+
+.form-login {
+    margin-right: 100px;
+}
+
+.esqueceu {
+    color: #9cb4d8;
+}
+
+.button-login {
+    background-color: #4267b2;
+    color: white;
+    border: 1px solid #324E82;
+    height: 25px;
+}
+
+.button-login:hover {
+    background-color: #2C4472;
+}

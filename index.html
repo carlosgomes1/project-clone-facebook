@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
+    <title> Facebook </title>
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,6 +14,9 @@
     <!-- Font awesome icons link -->
     <script src="https://kit.fontawesome.com/487bf931aa.js" crossorigin="anonymous"></script>
 
+    <!-- Estilo css personalizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <!-- Media queries css -->
     <link rel="stylesheet" type="text/css" href="css/media-queries.css">
 
@@ -19,11 +25,57 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
-    <title> Hello, world! </title>
+    
   </head>
   <body>
 
-    <h1 class="display-2"> Hello, world! </h1>
+    <header> <!-- Inicio do cabeçalho -->
+      <nav class="navbar navbar-expand fixed-top navbar-facebook"> <!-- Inicio da barra de navegação --> 
+        <div class="container"> <!-- Inicio container -->
+
+          <!-- Logo -->
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/logo.png" width="142">
+          </a>
+          <!-- Fim logo -->
+
+          <!-- Menu hamburguer -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-header">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <!-- fim menu hamburguer -->
+
+          <!-- Inicio da navbar -->
+          <div class="collapse navbar-collapse" id="navbar-header"> 
+            
+            <form class="ml-auto navbar-nav pt-2 form-login">
+
+              <div class="nav-item mx-3 ">
+                <label class="d-block" for="email"> Email ou telefone </label>
+                <input type="email" class="login">
+              </div>
+
+              <div class="nav-item mr-3">
+                <label class="d-block" for="senha"> Senha </label>
+                <input type="password" class="login">
+                <a href="" class="esqueceu d-block"> Esqueceu a conta? </a>
+              </div>
+
+              <div class="nav-item my-auto pt-2 ">
+                <button class="button-login">
+                  Entrar
+                </button>
+              </div>
+
+            </form>
+            
+          </div> 
+          <!-- fim da navbar -->
+
+        </div> <!-- Fim container -->
+      </nav> <!-- Fim barra de navegação -->
+    </header> <!-- Fim cabeçalho -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
